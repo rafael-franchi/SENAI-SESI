@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogoFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <span><img src="images/logo.png" alt="LogoFolio"></span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+        <form action="www.logofolio.com" method="get">
+            <fieldset>
+                <legend>Dados de contato</legend>
+                    <div class="campos">
+                        <label for="txtNome">Nome:</label><br>
+                        <input type="text" id="txtNome" placeholder="Digite seu nome" required>
+                    </div>
+                    
+                    <div class="campos">
+                        <label for="dataNasc">Data de Nascimento:</label><br>
+                        <input type="date" id="dataNasc" required>
+                    </div>
+
+                    <div class="campos">
+                        <label for="sexo">Sexo:</label><br>
+                        <input type="radio" id="sexMasc">
+                        <label for="sexMasc">Masculino</label>
+                        <input type="radio" id="sexFem">
+                        <label for="sexFem">Feminino</label>
+                    </div>
+
+                    <div class="campos">
+                        <label for="txtEnd">Endereço:</label><br>
+                        <input type="text" id="txtEnd" placeholder="Digite seu endereço">
+                    </div>
+
+                    <div class="campos">
+                        <label for="estado">Estado</label><br>
+                        <input list="browsers" name="browser" id="browser">
+                        <datalist id="browsers">
+                            <option value="Acre">
+                            <option value="Alagoas">
+                            <option value="Amapá">
+                            <option value="Amazonas">
+                            <option value="Bahia">
+                            <option value="Ceará">
+                            <option value="Distrito Federal">
+                            <option value="Espírito Santo">
+                            <option value="Goiás">
+                            <option value="Maranhão">
+                            <option value="Mato Grosso">
+                            <option value="Mato Grosso do Sul">
+                            <option value="Minas Gerais">
+                            <option value="Pará">
+                            <option value="Paraíba">
+                            <option value="Paraná">
+                            <option value="Pernambuco">
+                            <option value="Piauí">
+                            <option value="Rio de Janeiro">
+                            <option value="Rio Grande do Norte">
+                            <option value="Rio Grande do Sul">
+                            <option value="Rondônia">
+                            <option value="Roraima">
+                            <option value="Santa Catarina">
+                            <option value="São Paulo">
+                            <option value="Sergipe">
+                            <option value="Tocantins">
+                        </datalist>
+                    </div>
+                    <div class="campos">
+                        <label for="txtCidade">Cidade</label><br>
+                        <input type="text" id="txtCidade" placeholder="Digite sua cidade"> 
+                    </div>
+                    <div class="campos">
+                        <label for="numCelular">Telefone</label><br>
+                        <input type="tel" id="numCelular" placeholder="(DDD)XXXXX-XXXX">
+                    </div>
+                    <div class="campos">
+                        <label for="txtEmail">E-mail</label><br>
+                        <input type="email" id="txtEmail" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="campos">
+                        <label for="txtArea">Áreas de interesse</label><br>
+                        <input type="checkbox" name="html" id="html">HTML
+                        <input type="checkbox" name="html" id="html">CSS
+                        <input type="checkbox" name="html" id="html">JavaScript
+                    </div>
+                    <div class="campos">
+                        <label for="txtMessage">Mensagem</label><br>
+                        <textarea id="txtMessage" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a></li>
+            <li><a href="www.twitter.com" target="_blank"><img src="images/twiter.png" alt="Twiter"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
